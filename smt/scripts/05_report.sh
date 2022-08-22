@@ -3,7 +3,7 @@ root_dir=`pwd`
 
 mkdir -p $root_dir/experiments
 
-echo "Pls enter directory name"
+echo "Pls enter directory name to save some data and BLEU report for the given dataset: "
 read name
 
 

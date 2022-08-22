@@ -1,0 +1,136 @@
+Defined parameters (per moses.ini or switch):
+	config: /home/haki/qai-hackathon-smt/working/train/model/moses.ini 
+	distortion-limit: 6 
+	feature: UnknownWordPenalty WordPenalty PhrasePenalty PhraseDictionaryMemory name=TranslationModel0 num-features=4 path=/home/haki/qai-hackathon-smt/working/train/model/phrase-table.gz input-factor=0 output-factor=0 Distortion KENLM name=LM0 factor=0 path=/home/haki/qai-hackathon-smt/lm/language-model.blm.en order=4 
+	input-factors: 0 
+	mapping: 0 T 0 
+	verbose: 
+	weight: UnknownWordPenalty0= 1 WordPenalty0= -1 PhrasePenalty0= 0.2 TranslationModel0= 0.2 0.2 0.2 0.2 Distortion0= 0.3 LM0= 0.5 
+line=UnknownWordPenalty
+FeatureFunction: UnknownWordPenalty0 start: 0 end: 0
+line=WordPenalty
+FeatureFunction: WordPenalty0 start: 1 end: 1
+line=PhrasePenalty
+FeatureFunction: PhrasePenalty0 start: 2 end: 2
+line=PhraseDictionaryMemory name=TranslationModel0 num-features=4 path=/home/haki/qai-hackathon-smt/working/train/model/phrase-table.gz input-factor=0 output-factor=0
+FeatureFunction: TranslationModel0 start: 3 end: 6
+line=Distortion
+FeatureFunction: Distortion0 start: 7 end: 7
+line=KENLM name=LM0 factor=0 path=/home/haki/qai-hackathon-smt/lm/language-model.blm.en order=4
+FeatureFunction: LM0 start: 8 end: 8
+Loading UnknownWordPenalty0
+Loading WordPenalty0
+Loading PhrasePenalty0
+Loading Distortion0
+Loading LM0
+Loading TranslationModel0
+Start loading text phrase table. Moses format : [0.011] seconds
+Reading /home/haki/qai-hackathon-smt/working/train/model/phrase-table.gz
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+****************************************************************************************************
+Created input-output object : [0.244] seconds
+Translating: MÌ GÓI 
+Line 0: Initialize search took 0.001 seconds total
+Line 0: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 0: Search took 0.000 seconds
+BEST TRANSLATION: INSTANT NOODLES [11]  [total=-3.759] core=(0.000,-2.000,1.000,0.000,-0.884,-1.253,-2.407,0.000,-10.101)  
+Line 0: Decision rule took 0.000 seconds total
+Line 0: Additional reporting took 0.000 seconds total
+Line 0: Translation took 0.001 seconds total
+Translating: XÌA HẤP SẢ 
+Line 1: Initialize search took 0.000 seconds total
+Line 1: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 1: Search took 0.001 seconds
+BEST TRANSLATION: STEAMED CLAM WITH CITRONELLA [111]  [total=-2.223] core=(0.000,-4.000,1.000,-1.386,-2.505,-0.693,-5.430,0.000,-8.840)  
+Line 1: Decision rule took 0.000 seconds total
+Line 1: Additional reporting took 0.000 seconds total
+Line 1: Translation took 0.002 seconds total
+Translating: GÀ NẤU LÁ É 
+Line 2: Initialize search took 0.000 seconds total
+Line 2: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 2: Search took 0.002 seconds
+BEST TRANSLATION: COOKED CHICKEN ELM LEAVES [1111]  [total=-6.397] core=(0.000,-4.000,2.000,-1.386,-2.551,-2.303,-5.075,0.000,-17.068)  
+Line 2: Decision rule took 0.000 seconds total
+Line 2: Additional reporting took 0.000 seconds total
+Line 2: Translation took 0.002 seconds total
+Translating: MÌ TRỘN TƯƠNG ĐEN HẢI SẢN 
+Line 3: Initialize search took 0.000 seconds total
+Line 3: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 3: Search took 0.014 seconds
+BEST TRANSLATION: MIXED NOODLES WITH SEAFOOD BLACK SAUCE [111111]  [total=-3.993] core=(0.000,-6.000,2.000,-0.693,-8.461,-1.153,-3.478,0.000,-15.273)  
+Line 3: Decision rule took 0.000 seconds total
+Line 3: Additional reporting took 0.000 seconds total
+Line 3: Translation took 0.014 seconds total
+Translating: SET SƯỜN HEO 
+Line 4: Initialize search took 0.000 seconds total
+Line 4: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 4: Search took 0.001 seconds
+BEST TRANSLATION: SET PORK RIBS [111]  [total=-6.312] core=(0.000,-3.000,2.000,-1.649,-1.807,-0.182,-1.409,0.000,-17.404)  
+Line 4: Decision rule took 0.000 seconds total
+Line 4: Additional reporting took 0.000 seconds total
+Line 4: Translation took 0.001 seconds total
+Translating: BÒ VIÊN 
+Line 5: Initialize search took 0.000 seconds total
+Line 5: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 5: Search took 0.000 seconds
+BEST TRANSLATION: BEEF BALL [11]  [total=-2.015] core=(0.000,-2.000,2.000,-0.378,-0.606,-0.602,-0.995,0.000,-7.797)  
+Line 5: Decision rule took 0.000 seconds total
+Line 5: Additional reporting took 0.000 seconds total
+Line 5: Translation took 0.000 seconds total
+Translating: CUA XÀO MIẾN 
+Line 6: Initialize search took 0.000 seconds total
+Line 6: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 6: Search took 0.002 seconds
+BEST TRANSLATION: STIR FRIED RICE NOODLE AND CRAB [111]  [total=-2.641] core=(0.000,-6.000,1.000,0.000,-4.035,0.000,-8.216,0.000,-12.782)  
+Line 6: Decision rule took 0.000 seconds total
+Line 6: Additional reporting took 0.000 seconds total
+Line 6: Translation took 0.002 seconds total
+Translating: CHẢ RAM BẮP CUỐN CẢI 
+Line 7: Initialize search took 0.000 seconds total
+Line 7: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 7: Search took 0.014 seconds
+BEST TRANSLATION: FRIED CORN SPRING ROLL VEGETABLE [11111]  [total=-8.557] core=(0.000,-5.000,3.000,-3.203,-8.918,-3.020,-6.847,0.000,-19.518)  
+Line 7: Decision rule took 0.000 seconds total
+Line 7: Additional reporting took 0.000 seconds total
+Line 7: Translation took 0.014 seconds total
+Translating: ĐẬU HỦ DĂM BÔNG 
+Line 8: Initialize search took 0.000 seconds total
+Line 8: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 8: Search took 0.000 seconds
+BEST TRANSLATION: TOFU WITH JAMPON [1111]  [total=-5.036] core=(0.000,-3.000,2.000,-2.197,-5.937,-2.026,-4.622,0.000,-10.958)  
+Line 8: Decision rule took 0.000 seconds total
+Line 8: Additional reporting took 0.000 seconds total
+Line 8: Translation took 0.001 seconds total
+Translating: HÀU NƯỚNG 
+Line 9: Initialize search took 0.000 seconds total
+Line 9: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 9: Search took 0.000 seconds
+BEST TRANSLATION: GRILLED OYSTERS [11]  [total=-2.892] core=(0.000,-2.000,1.000,-0.470,-0.479,-1.099,-1.069,0.000,-8.937)  
+Line 9: Decision rule took 0.000 seconds total
+Line 9: Additional reporting took 0.000 seconds total
+Line 9: Translation took 0.001 seconds total
+Translating: GIÒ HEO GIẢ CẦY 
+Line 10: Initialize search took 0.000 seconds total
+Line 10: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 10: Search took 0.001 seconds
+BEST TRANSLATION: FAKE PORK LEG [1111]  [total=-8.927] core=(0.000,-3.000,2.000,-1.966,-4.291,-1.580,-3.572,-5.000,-17.089)  
+Line 10: Decision rule took 0.000 seconds total
+Line 10: Additional reporting took 0.000 seconds total
+Line 10: Translation took 0.002 seconds total
+Translating: BÁNH TRÁNG TRỘN 
+Line 11: Initialize search took 0.000 seconds total
+Line 11: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 11: Search took 0.001 seconds
+BEST TRANSLATION: MIXED RICE PAPER [111]  [total=-2.202] core=(0.000,-3.000,1.000,0.000,-3.217,-0.956,-2.372,0.000,-8.186)  
+Line 11: Decision rule took 0.000 seconds total
+Line 11: Additional reporting took 0.000 seconds total
+Line 11: Translation took 0.001 seconds total
+Translating: TRÂN CHÂU TRẮNG 
+Line 12: Initialize search took 0.000 seconds total
+Line 12: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 12: Search took 0.001 seconds
+BEST TRANSLATION: WHITE BUBBLE [111]  [total=-2.723] core=(0.000,-2.000,1.000,0.000,-2.384,-0.938,-1.320,0.000,-7.990)  
+Line 12: Decision rule took 0.000 seconds total
+Line 12: Additional reporting took 0.000 seconds total
+Line 12: Translation took 0.001 seconds total
+Name:moses	VmPeak:59120 kB	VmRSS:20948 kB	RSSMax:38944 kB	user:0.267	sys:0.031	CPU:0.299	real:0.333
