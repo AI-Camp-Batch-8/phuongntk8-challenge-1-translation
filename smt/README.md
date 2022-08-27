@@ -12,4 +12,4 @@ Run script 09_predict.sh to get result in file `predict/output.en`.
 
 
 
-**IMPORTANT** input file need to have one blank line at the end, otherwise the last line of the input file will not be translated.
+**IMPORTANT** input file needs to have one blank line at the end, otherwise the last line of the input file will not be translated.
